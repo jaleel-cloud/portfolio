@@ -1,0 +1,86 @@
+.Education{
+    display: flex;
+    gap: 18rem;
+    margin-top: 10rem;
+    
+}
+/* left edu div */
+.left-Edu>:nth-child(1){
+
+    font-size: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 600;
+}
+.left-Edu>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--light);
+}
+.left-Edu>:nth-child(6){
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--light);
+}
+.left-Edu > p{
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+/* middle div */
+.middle-Edu>:nth-child(1){
+
+    font-size: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 600;
+}
+.middle-Edu>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--light);
+}
+
+.middle-Edu > p{
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+/* right edu div */
+.right-Edu>:nth-child(1){
+
+    font-size: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 600;
+}
+.right-Edu>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--light);
+}
+.right-Edu>:nth-child(5){
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--light);
+}
+.right-Edu > p{
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+/* media queries */
+@media screen and (max-width:500px) {
+    .Education{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1300px;
+        gap: 2rem;
+    }
+    
+}

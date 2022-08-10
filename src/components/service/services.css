@@ -1,0 +1,117 @@
+.services{
+    display: flex;
+    /* padding: 0 3rem 0 3rem; */
+  height: 90vh;
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 12rem;
+  
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+    gap: 0.2rem;
+  
+}
+.awesome>:nth-child(1){
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.awesome>:nth-child(2){
+    color: var(--light);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.awesome>:nth-child(3){
+    color:var(--gray);
+    font-size: .8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(4){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+.awesome>:nth-child(5){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(6){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(7){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(8){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(9){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(10){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.awesome>:nth-child(11){
+    color:var(--gray);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: .8rem;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width:500px){
+    .services{
+margin-top: 0;
+padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        height: 100vh;
+        
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .cards>*{
+        position: static;
+    }
+}
